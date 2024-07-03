@@ -36,8 +36,9 @@ category type x1 y1 x2 y2 ... xn yn
 (The type includes 0, 1, 2, where 0 denotes horizontal bounding box, 1 denotes oriented bounding box and 2 denotes the instance contour.)
 
 For example:
-storage-tank 0 550 385 616.4078431372549 385.50588235294117 616.4078431372549 438.71372549019605 550.1490196078431 438.71372549019605
-
+storage-tank 0 550 385 616 385 616 438 550 438
+ship         1 450 485 216 485 516 638 750 538
+airplane     2 886 35 887 33 892 32 899 32 907 31 914 13 916 10 916 13 916 23 917 20 936 28 940 24 943 22 940 31 941 41 
 ```
 
 ## Main Results
