@@ -30,3 +30,18 @@ Nowadays, object detection has to give the locations and their specific categori
 - **Multi-grained NV10**  is also built by combining three annotation granularities of HBB, OBB and InSeg. However, due to the lack of the OBB version, the annotation of InSeg is adopted for expanding the OBB annotation, that is, calculating the bounding rectangle based on the pixel point set of each instance. And then, we followed the same data split to construct a mixed version of NV10. Regarding the allocation of annotation granularity, the airplane (AL) and baseball diamond (BD) are annotated in the format of InSeg. The ship (S), tennis court (TC), basketball court (BC), harbor (HB), bridge (B) and vehicle (V) are annotated in the format of OBB. Lastly, the ground track filed (GTF) and storage tank (ST) are selected for using the HBB annotation. 
 > The processed data is avaiable [BaiduNetDisk(pwd:nv10)](https://pan.baidu.com/s/1qK5nOhttiZ0Y6cE4hHajSg).
 
+
+## Main Results
+### Object detection on DIOR dataset
+
+### Object detection on NWPUVHR-10 dataset
+
+### Object detection on DOTA dataset
+
+### Object detection on Multi-grained DOTA dataset
+
+### Object detection on Multi-grained NV10 dataset
+
+
+## Citation
+
