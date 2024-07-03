@@ -31,10 +31,9 @@ Nowadays, object detection has to give the locations and their specific categori
 > The processed data is avaiable [BaiduNetDisk(pwd:nv10)](https://pan.baidu.com/s/1qK5nOhttiZ0Y6cE4hHajSg).
 
 ```
-Data Format
+Data Format:
 category type x1 y1 x2 y2 ... xn yn
-
-The type includes 0, 1, 2, where 0 denotes horizontal bounding box, 1 denotes oriented bounding box and 2 denotes the instance contour.
+(The type includes 0, 1, 2, where 0 denotes horizontal bounding box, 1 denotes oriented bounding box and 2 denotes the instance contour.)
 
 For example:
 storage-tank 0 550 385 616.4078431372549 385.50588235294117 616.4078431372549 438.71372549019605 550.1490196078431 438.71372549019605
