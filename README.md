@@ -6,7 +6,7 @@
 ## Updates
 
  - (April, 2024): This repository is built, and the dataset and code are coming soon!🚀
- - (July, 2024): We released part implementation code, and the remaining codes would be released after accpecting the work.🌟
+ - (July, 2024): We released part implementation codes, and the remaining codes would be released after accpecting the work.🌟
  - (July, 2024): The multi-grained self-built datasets Multi-grained DOTA and Multi-grained NV10 are released!🌟
 
 ## Abstract 
