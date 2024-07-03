@@ -42,16 +42,8 @@ airplane     2 886 35 887 33 892 32 899 32 907 31 914 13 916 10 916 13 916 23 91
 ```
 
 ## Main Results
-### Object detection on DIOR dataset
+```
 
-### Object detection on NWPUVHR-10 dataset
-
-### Object detection on DOTA dataset
-
-### Object detection on Multi-grained DOTA dataset
-
-### Object detection on Multi-grained NV10 dataset
-
-
+```
 ## Citation
 
