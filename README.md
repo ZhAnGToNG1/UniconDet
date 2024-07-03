@@ -1,5 +1,5 @@
 # A Unified Remote Sensing Object Detector Based on Fourier Contour Parametric Learning
-![](readme/fig2.png)         
+![](docs/framework.png)         
 > Tong Zhang, Yin Zhuang, Guanqun Wang, He Chen, Liang Chen, Lianlin Li      
 > Under review on IEEE Transactions on Geoscience and Remote Sensing
 
