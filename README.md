@@ -3,23 +3,20 @@
 
 ## Updates
 
- - (June, 2020) April 25, 2024: This repository is constructed and the related DATASET would be released soon.
- - (April, 2020) We released a state-of-the-art (multi-category-/ pose-/ 3d-) tracking extension [CenterTrack](https://github.com/xingyizhou/CenterTrack).
+ - (April 25, 2024): This repository is constructed and the related DATASET would be released soon.
+ - (July 3, 2024): We released part implementation code, model weigths and self-built dataset.
 
 ## Abstract 
-
+Nowadays, object detection has to give the locations and their specific categories corresponding to different parametric definitions, such as the horizontal bounding box (HBB), oriented bounding box (OBB) and instance segmentation (InSeg). However, the absence of unified, efficient and precise parametric definition would severely hinder the development of remote sensing object detection. Therefore, in order to establish a remarkable paradigm that can unify HBB, OBB and InSeg to promote the development of remote sensing object detection, a unified remote sensing detector called UniconDet is proposed, which is capable of coping with detection tasks with different parametric definitions. Firstly, aiming to construct a unified parameter mapping paradigm that can detect arbitrary-shaped objects, a new Fourier contour parametric modeling is designed to represent any contours in the frequency domain, which has the benefits of scale-invariance and robustness. Secondly, to advance the learning of a series of Fourier contour parameters, a multi-view cross attention is proposed. It utilizes spatial affine transformation to imitate the spectrum shift, and then build long range dependence between transformed views via cross attention. This allows to obtain the coupled discriminative information for promoting the Fourier domain-based parameter prediction. Thirdly, for fully exploiting the advantages of contour modeling based Fourier contour parametric learning, a center-contour enhancing regression layer is proposed to individually leverage regional guidance and cascade contour propagation to ensure accurate prediction of center and contour parameters. Finally, a great deal of experiments is executed on benchmarks of HBB, OBB, InSeg and self-built multi-grained detection tasks. And, these results prove that our proposed UniconDet can reach or approach sota-of-the-art (SOTA) performance.
 
 
 ## Highlights
 
-- **Simple:** One-stage and Anchor-free
+- **Simple:** One-stage and Anchor-free: detect center point and regress fourier degree.
 
-- **Versatile:** The same framework works for object detection, 3d bounding box estimation, and multi-person pose estimation with minor modification.
+- **Versatile:** A unifed detection framework works for horizontal bounding box-based object detection, oriented bounding box-based object detection, and instance segmentation.
 
-- **Fast:** The whole process in a single network feedforward. No NMS post processing is needed. Our DLA-34 model runs at *52* FPS with *37.4* COCO AP.
+- **Strong**: It achieves sota-of-the-art (SOTA) results in some datasets, such as DIOR, NWPUVHR-10 and iSAID.
 
-- **Strong**: Our best single model achieves *45.1*AP on COCO test-dev.
-
-- **Easy to use:** We provide user friendly testing API and webcam demos.
-
+- **Benchmark**: A novel multi-categories and -grained object detection benchamrk is built for laying the foundation for the practical application in real-world scenes.
 
